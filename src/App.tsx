@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import { Grid } from "./components/Grid";
 import { PathfindingProvider } from "./context/PathfindingContext";
 import { SpeedProvider } from "./context/SpeedContext";
