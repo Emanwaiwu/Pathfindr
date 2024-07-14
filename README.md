@@ -24,5 +24,5 @@ There are more pathfinding algorithms to explore, these are just the few feature
 ## Enjoy!!
 Feel free to check out my other projects, if you enjoyed this one.
 
-![image](https://github.com/user-attachments/assets/f7c4b240-3956-44e1-b1d9-a8b3dc537902)
+![video](https://github.com/user-attachments/assets/f7c4b240-3956-44e1-b1d9-a8b3dc537902)
 
