@@ -4,10 +4,10 @@ Hey I'm Emmanuel. I was interested in pathfinding algorithms and wanted to see t
 
 ## Understand the algorithms 
 
-## Dijkstra's Algorithm (Weighted):
+Dijkstra's Algorithm (Weighted):
 Dijkstra's finds the shortest path from a start node to all others in a graph where edges have different weights. It picks the closest unvisited node, updates neighbors' distances, and repeats.
 
-## A* Algorithm (Weighted):
+# A* Algorithm (Weighted):
 A* finds the shortest path from start to end in a graph where edges have different weights, using a guess (heuristic) to find the goal faster. It calculates a cost for each node and picks the lowest one.
 
 ## Breadth-First Search (BFS) (Unweighted):
