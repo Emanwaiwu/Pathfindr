@@ -1,34 +1,25 @@
 <<<<<<< HEAD
-# React + TypeScript + Vite
+Welcome to Pathfindr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey I'm Emmanuel. I was interested in pathfinding algorithms and wanted to see them in action, so I created this program. Just as much as I liked creating this visualization tool, I hope you have fun experimenting with it. You will not be able to view this project on a mobile device, so make sure to use a deskttop/laptop when checking it out: https://pathfindr-virid.vercel.app/
 
-Currently, two official plugins are available:
+## Understand the algorithms
+Dijkstra's Algorithm (Weighted):
+Dijkstra's finds the shortest path from a start node to all others in a graph where edges have different weights. It picks the closest unvisited node, updates neighbors' distances, and repeats.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A* Algorithm (Weighted):
+A* finds the shortest path from start to end in a graph where edges have different weights, using a guess (heuristic) to find the goal faster. It calculates a cost for each node and picks the lowest one.
 
-## Expanding the ESLint configuration
+Breadth-First Search (BFS) (Unweighted):
+BFS explores all nodes at the current depth before going deeper in a graph where all edges have the same weight. It starts from the root, visits all neighbors, then moves to the next level.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Depth-First Search (DFS) (Unweighted):
+DFS explores as far as possible along each branch before backtracking in a graph where all edges have the same weight. It starts from the root and uses a stack to track the path.
 
-- Configure the top-level `parserOptions` property like this:
+**NOTE**
+In a weighted graph, edges have different values, meaning some paths cost more to travel than others. In an unweighted graph, all edges have the same value, so all paths cost the same to travel.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+There are more pathfinding algorithms to explore, these are just the few featured in this project.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-=======
-# Pathfindr
->>>>>>> 45660330f53d6ea527baef8921c9a3491059055b
+## Enjoy!!
+Feel free to check out my other projects, if you enjoyed this one.
