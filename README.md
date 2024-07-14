@@ -2,7 +2,7 @@
 
 Hey I'm Emmanuel. I was interested in pathfinding algorithms and wanted to see them in action, so I created this program. Just as much as I liked creating this visualization tool, I hope you have fun experimenting with it. You will not be able to view this project on a mobile device, so make sure to use a deskttop/laptop when checking it out: https://pathfindr-virid.vercel.app/
 
-## Understand the algorithms 
+## Understand the algorithms ![image](https://github.com/user-attachments/assets/dae85550-fc9a-4b63-8a89-2550f632fd28)
 
 ### Dijkstra's Algorithm (Weighted):
 Dijkstra's finds the shortest path from a start node to all others in a graph where edges have different weights. It picks the closest unvisited node, updates neighbors' distances, and repeats.
@@ -25,4 +25,4 @@ There are more pathfinding algorithms to explore, these are just the few feature
 Feel free to check out my other projects, if you enjoyed this one.
 ![i-hope-you-enjoy-it-dwayne-johnson](https://github.com/user-attachments/assets/a5a81348-a1b4-4aa5-813f-2b316486fe89)
 
-![image](https://github.com/user-attachments/assets/dae85550-fc9a-4b63-8a89-2550f632fd28)
+
